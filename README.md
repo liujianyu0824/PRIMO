@@ -3,7 +3,7 @@
 ## Code Structure
 The source code is organized as follows:
 
-```data```: contains multi-hops open rule dataset.
+```data```: contains multi-hop open rule dataset.
 
 ```checkpoint```: contains the model weight files.
 
@@ -40,7 +40,7 @@ python train_reward_model.py
 python ppo_openrule.py
 ```
 
-#### Generating multi-hops open rule
+#### Generating multi-hop open rule
 ```
 python gen_openrule.py
 ```
