@@ -1,11 +1,4 @@
 # !/usr/bin/env python3
-"""
-
-使用ChatGPT中Reward Model的思路训练一个RM，因为是打分模型，所以使用BERT（而非GPT）模型训练。
-
-Author: pankeyu
-Date: 2022/12/30
-"""
 import os
 import time
 import argparse
