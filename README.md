@@ -21,6 +21,8 @@ The source code is organized as follows:
 
 ```ppo_openrule.py```: contains the code for reinforcement learning of G_net and E_net.
 
+```train_gpt.py```: contains the code for training gpt for Generation and Extraction.
+
 ```train_reward_model.py```: contains the code for training reward model.
 
 ## Commands
@@ -28,6 +30,11 @@ The source code is organized as follows:
 ### requirements
 ```
 pip install -r requirements.txt
+```
+
+#### Training gpt
+```
+python train_gpt.py
 ```
 
 #### Training RM
